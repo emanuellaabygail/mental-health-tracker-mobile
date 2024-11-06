@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_tracker/menu.dart';
+import 'package:mental_health_tracker/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.deepPurple,
-        ).copyWith(secondary: Colors.deepPurple[400]),
+          primarySwatch: Colors.green,
+        ).copyWith(secondary: Color.fromARGB(255, 57, 130, 83)),
         useMaterial3: true,
       ),
       home: MyHomePage(),
